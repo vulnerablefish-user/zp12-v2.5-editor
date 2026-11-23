@@ -1,0 +1,19 @@
+ZP12 sample editor compatibility patch
+
+Upstream project: https://github.com/zvenson/zp12
+Upstream issue: https://github.com/zvenson/zp12/issues/3
+
+Change:
+The Web MIDI port-name detector now accepts both the legacy "felucca"
+name and the ZP12 2.5 name "zp12 FM-1". Disconnected ports remain excluded.
+
+No sample-transfer protocol code was intentionally changed.
+
+This is an unofficial community compatibility build. It has been confirmed
+to launch and work offline by the person who supplied the original report,
+but the complete MIDI handshake and sample transfer have not been
+independently verified on multiple FM-1 units.
+
+The original project is GPL-3.0-only. The upstream LICENSE file is included.
+Please report issues to the upstream issue above and identify this as the
+community compatibility build, not an official upstream release.
